@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+header {
+  font-family: "Josefin Sans", serif;
+  padding-top: 8px;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+}
+
+.titleImg img {
+  width: 100vw;
+  border-bottom: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: black;
+}
+
+h1 a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  left: 4vw;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+nav a {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  font-family: "Josefin Sans";
+  font-size: 30px;
+  color: black;
+  top: 4vw;
+}
+
+.aboutText {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5vw;
+  margin-left: 20vw;
+  margin-bottom: 5vw;
+}
+
+.aboutText img{
+  width: 30vw;
+}
+
+.aboutText h2 {
+  font-family: "Josefin Sans";
+  font-size: 30px;
+  left: 20vw;
+}
+.aboutText p {
+  font-family: "Josefin Sans";
+  font-size: 30px;
+}
+
+.aboutText a {
+  font-family: "Josefin Sans";
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.dropdown {
+  display: inline-block;
+  color: white;
+  font-family: "Josefin Sans", serif;
+  font-size: 40px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+  font-family: "Josefin Sans", serif;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdownTitles {
+  width: 30vw;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  right: 12vw;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.4);
+  font-family: "Josefin Sans";
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+  border-top: solid;
+  border-top-width: 5px;
+  border-top-color: black;
+}
+
+.firstTable {
+  position: relative;
+  top: 15vw;
+}
+
+.wacktable {
+  display: inline-flex;
+  margin-left: 3vw;
+  border: solid;
+  border-width: 5px;
+  border-color: black;
+}
+
+.wacktable img {
+  width: 50vw;
+}
+
+.wacktable .textBox {
+  width: 30vw;
+  background-color: grey;
+}
+
+.textBox h2 {
+  color: white;
+  font-family: "Josefin Sans";
+  position: relative;
+  left: 2vw;
+  top: 8vw;
+  white-space: wrap;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 0vw;
+  background-image: url(dinnertable.png);
+}
+
+.secondTable {
+  position: relative;
+  top: 35vw;
+  left: 32vw;
+  justify-content: flex-end;
+}
+
+.swingTable {
+  display: inline-flex;
+  margin-left: 3vw;
+  border: solid;
+  border-width: 5px;
+  border-color: black;
+}
+
+.secondTable img {
+  width: 30vw;
+}
+
+.secondTable .text {
+  width: 30vw;
+  background-color: rgb(255, 255, 255);
+}
+
+.text h2 {
+  color: rgb(0, 0, 0);
+  font-family: "Josefin Sans";
+  position: relative;
+  left: 2vw;
+  top: 8vw;
+  white-space: wrap;
+}
+
+.backGround {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 0vw;
+  background-image: url(livingroom.jpg);
+}
+
+.construction {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 25vw;
+  font-size: 30px;
+  font-family: "Josefin Sans";
+}
+
+.nakedwoman {
+  position: relative;
+  top: 20vw;
+  left: 32vw;
+  justify-content: flex-end;
+}
+
+.nakedWoman {
+  display: inline-flex;
+  margin-left: 3vw;
+  border: solid;
+  border-width: 5px;
+  border-color: black;
+}
+.nakedWoman img {
+  width: 30vw;
+}
+
+.TextBox {
+  width: 20vw;
+  background-color: white;
+}
+
+.TextBox h2 {
+  color: rgb(0, 0, 0);
+  font-family: "Josefin Sans";
+  position: relative;
+  left: 2vw;
+  top: 3vw;
+  white-space: wrap;
+}
